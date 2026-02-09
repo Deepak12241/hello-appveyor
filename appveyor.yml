@@ -1,2 +1,3 @@
 build_script:
-  - echo Hello AppVeyor
+  - echo This is AppVeyor workspace file > demo.txt
+  - type demo.txt
